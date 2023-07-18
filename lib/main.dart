@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
         title: const Text('Word Generator'),
+        centerTitle: true,
       ),
       body:
         const Text("data", style: TextStyle(color: Colors.blue, ),
